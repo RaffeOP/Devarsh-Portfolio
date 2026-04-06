@@ -14,6 +14,12 @@ const getProject = async (slug: string) => {
   return projects.find((project) => project.slug === slug);
 };
 
+export async function generateStaticParams() {
+  return projects.map((project) => ({
+    id: project.slug,
+  }));
+}
+
 const ProjectDetails = async ({
   params,
 }: {
