@@ -1,4 +1,4 @@
-// Regular async functions (removed "use server" for static export compatibility)
+"use server";
 
 import connectToDatabase from "@/lib/database";
 import LoveCount from "@/model/loveCount.model";
