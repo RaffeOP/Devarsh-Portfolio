@@ -99,7 +99,7 @@ export const projects = [
     ],
     feedback: true,
     links: {
-      live: "https://devarsh.dev",
+      live: "https://devarshdev.vercel.app/",
       github: "https://github.com/RaffeOP/Devarsh-Portfolio",
     },
   },

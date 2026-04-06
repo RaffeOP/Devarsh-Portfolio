@@ -1,4 +1,4 @@
-"use server";
+// Regular async functions (removed "use server" for static export compatibility)
 
 import { siteConfig } from "@/config/site";
 
