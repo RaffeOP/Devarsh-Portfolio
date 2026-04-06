@@ -15,7 +15,7 @@ Personal portfolio built with **Next.js 15**, **Tailwind CSS**, and **framer-mot
 
 ## Deployment
 
-### Vercel Instructions
+### Vercel (Recommended)
 1. Push your code to a GitHub repository.
 2. Select the repository in the Vercel Dashboard.
 3. Vercel will automatically detect Next.js and deploy your project.

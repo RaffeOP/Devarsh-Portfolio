@@ -1,3 +1,5 @@
+export const dynamic = "force-static";
+
 import { siteConfig } from "@/config/site";
 import { NextResponse } from "next/server";
 
