@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#09090b" />
+    <meta name="description" content="Bachelor of Technology (B.Tech) - Computer Science @ VIT Vellore | AI & ML Architect | Second Year Builder." />
+    <meta name="keywords" content="Devarsh Patel, Portfolio, VIT Vellore CSE, Full Stack Developer, React Developer" />
+    <meta name="author" content="Devarsh Patel" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="devarsh.dev" />
+    <meta property="og:description" content="Bachelor of Technology (B.Tech) - Computer Science @ VIT Vellore | AI & ML Architect | Second Year Builder." />
+    <meta property="og:url" content="https://devarsh.dev" />
+    <title>devarsh.dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&family=Syne:wght@400..800&display=swap" rel="stylesheet" />
+    <script>
+      try {
+        if (localStorage.theme === 'dark' || ((!('theme' in localStorage) || localStorage.theme === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+          document.querySelector('meta[name="theme-color"]')?.setAttribute('content', '#09090b');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      } catch (_) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

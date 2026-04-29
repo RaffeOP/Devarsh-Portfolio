@@ -1,0 +1,66 @@
+import { Link, useLocation } from 'react-router-dom';
+import { cn } from '@/lib/utils';
+
+export function SideNav({ config }: any) {
+  const { pathname } = useLocation();
+  const items = config.sidebarNav;
+
+  return items.length ? (
+    <div className="flex flex-col gap-6">
+      {items.map((item: any, index: any) => (
+        <div key={index} className="flex flex-col gap-1">
+          <h4 className="rounded-md px-2 py-1 text-sm font-medium">
+            {item.title}{' '}
+            {item.label && (
+              <span className="ml-2 rounded-none bg-white px-1.5 py-0.5 text-[10px] font-bold uppercase leading-none text-black no-underline group-hover:no-underline">
+                {item.label}
+              </span>
+            )}
+          </h4>
+          {item?.items?.length && (
+            <DocsNavItems items={item.items} pathname={pathname} />
+          )}
+        </div>
+      ))}
+    </div>
+  ) : null;
+}
+
+function DocsNavItems({ items, pathname }: { items: any; pathname: string }) {
+  return items?.length ? (
+    <div className="grid grid-flow-row auto-rows-max gap-0.5 text-sm">
+      {items.map((item: any, index: any) =>
+        item.href && !item.disabled ? (
+          <Link
+            key={index}
+            to={item.href}
+            className={cn(
+              'group relative flex h-8 w-full items-center rounded-lg px-2 after:absolute after:inset-x-0 after:inset-y-[-2px] after:rounded-lg hover:bg-accent hover:text-accent-foreground',
+              item.disabled && 'cursor-not-allowed opacity-60',
+              pathname === item.href
+                ? 'bg-accent font-medium text-accent-foreground'
+                : 'font-normal text-foreground'
+            )}
+          >
+            {item.title}
+            {item.label && (
+              <span className="ml-2 rounded-none bg-black px-1.5 py-0.5 text-[10px] font-bold uppercase leading-none text-white no-underline group-hover:no-underline dark:bg-white dark:text-black">
+                {item.label}
+              </span>
+            )}
+          </Link>
+        ) : (
+          <span
+            key={index}
+            className={cn(
+              'flex w-full cursor-not-allowed items-center rounded-md p-2 text-muted-foreground hover:underline',
+              item.disabled && 'cursor-not-allowed opacity-60'
+            )}
+          >
+            {item.title}
+          </span>
+        )
+      )}
+    </div>
+  ) : null;
+}
