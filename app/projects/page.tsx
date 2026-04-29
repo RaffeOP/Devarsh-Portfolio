@@ -13,9 +13,9 @@ const ProjectsPage = () => {
   return (
     <>
       <PageHeader className="mb-10">
-        <PageHeaderHeading className=" font-extrabold tracking-tighter">Projection Matrix</PageHeaderHeading>
+        <PageHeaderHeading className=" font-extrabold tracking-tighter">Projects</PageHeaderHeading>
         <PageHeaderHeading className="mt-4 text-muted-foreground text-sm">
-          Strategic Repositories & Visual Architectures
+          Repositories & Applications
         </PageHeaderHeading>
       </PageHeader>
 
@@ -43,11 +43,47 @@ const ProjectsPage = () => {
         ))}
       </div>
 
+      <PageHeader className="mb-6 mt-16">
+        <PageHeaderHeading className=" font-extrabold tracking-tighter text-3xl">Currently Learning & Building</PageHeaderHeading>
+        <PageHeaderHeading className="mt-4 text-muted-foreground text-sm">
+          What I'm focused on right now
+        </PageHeaderHeading>
+      </PageHeader>
+
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 card-container mb-10">
+        <Card className="mercury-ripple relative w-full border-white/10 bg-black/40 backdrop-blur-sm">
+          <CardHeader>
+            <CardTitle className="leading-6">Algorithm Visualizer</CardTitle>
+            <CardDescription>
+              Building an interactive web tool to visualize common sorting and pathfinding algorithms.
+            </CardDescription>
+          </CardHeader>
+        </Card>
+        
+        <Card className="mercury-ripple relative w-full border-white/10 bg-black/40 backdrop-blur-sm">
+          <CardHeader>
+            <CardTitle className="leading-6">AI & Machine Learning</CardTitle>
+            <CardDescription>
+              Exploring artificial intelligence concepts and machine learning fundamentals to build smarter applications.
+            </CardDescription>
+          </CardHeader>
+        </Card>
+        
+        <Card className="mercury-ripple relative w-full border-white/10 bg-black/40 backdrop-blur-sm">
+          <CardHeader>
+            <CardTitle className="leading-6">RAG Systems & Automations</CardTitle>
+            <CardDescription>
+              Learning how to connect AI to custom data sources and automate daily developer workflows.
+            </CardDescription>
+          </CardHeader>
+        </Card>
+      </div>
+
       <Pager
         prevHref="/about"
-        nextHref="/skills-tools"
+        nextHref="/tech-stack-tools"
         prevTitle="About"
-        nextTitle="Skills & Tools"
+        nextTitle="Tech Stack & Tools"
       />
     </>
   );

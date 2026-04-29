@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import { Play, Pause, SkipForward, SkipBack, Music } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import dynamic from 'next/dynamic';
+const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
 
 const PLAYLIST = [
   // --- PUNJABI - KARAN AUJLA & BADSHAH ---
@@ -51,12 +53,19 @@ const AudioDeck: React.FC = () => {
     >
       {/* Hidden Audio Engine */}
       <div className="hidden pointer-events-none">
-        <iframe
+        <ReactPlayer 
+          url={`https://www.youtube.com/watch?v=${PLAYLIST[currentTrack].id}`}
+          playing={isPlaying}
+          loop={true}
           width="0"
           height="0"
-          src={`https://www.youtube.com/embed/${PLAYLIST[currentTrack].id}?autoplay=${isPlaying ? 1 : 0}&enablejsapi=1&loop=1`}
-          allow="autoplay"
-        ></iframe>
+          onEnded={nextTrack}
+          config={{
+            youtube: {
+              playerVars: { autoplay: 1, controls: 0 }
+            }
+          }}
+        />
       </div>
 
       <div 

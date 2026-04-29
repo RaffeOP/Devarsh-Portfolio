@@ -11,16 +11,16 @@ const EducationPage = () => {
   return (
     <>
       <PageHeader className="mb-10">
-        <PageHeaderHeading className=" font-extrabold tracking-tighter">Academic Forge</PageHeaderHeading>
+        <PageHeaderHeading className=" font-extrabold tracking-tighter">Education</PageHeaderHeading>
         <PageHeaderHeading className="mt-4 text-muted-foreground text-sm">
-          Engineering Intelligence. Architecting Code.
+          Where I learn and grow
         </PageHeaderHeading>
         <PageHeaderDescription>
-          Education is the engine of my digital evolution. Currently pursuing a <strong>Bachelor of Technology (B.Tech) in Computer Science</strong> at <strong>Vellore Institute of Technology (VIT), Vellore</strong>, I am deep-diving into the mechanics of AI, ML, and scalable software systems.
+          I am currently pursuing a <strong>Bachelor of Technology (B.Tech) in Computer Science</strong> at <strong>Vellore Institute of Technology (VIT), Vellore</strong>. My coursework gives me a strong foundation in software engineering, AI, and machine learning.
         </PageHeaderDescription>
 
         <PageHeaderDescription>
-          My journey is defined by a relentless drive to translate complex academic concepts into production-grade solutions. Beyond the classroom, I am a second-year builder, shipping projects that push the boundaries of what is possible in the CSE-AI ecosystem.
+          Outside of classes, I spend my time building real projects. My ultimate goal is to take the theoretical concepts I learn from lectures and apply them to solve actual, real-world problems through code.
         </PageHeaderDescription>
       </PageHeader>
 

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/raffe/Documents/GitHub/Devarsh-Portfolio/app/projects/loading.tsx"],"sourcesContent":["const Loading = () => {\n  return (\n    <div className=\"flex items-center justify-center\">\n      <div className=\"container max-w-4xl p-4 mx-auto md:p-8\">\n        <div className=\"flex items-center justify-center\">\n          <div className=\"w-10 h-10 border-t-2 border-b-2 border-primary rounded-full animate-spin\"></div>\n        </div>\n      </div>\n    </div>\n  );\n};\nexport default Loading;\n"],"names":[],"mappings":";;;;;;AAAA,MAAM,UAAU;IACd,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;sBACb,cAAA,8OAAC;gBAAI,WAAU;0BACb,cAAA,8OAAC;oBAAI,WAAU;;;;;;;;;;;;;;;;;;;;;AAKzB;uCACe","debugId":null}}]
+}

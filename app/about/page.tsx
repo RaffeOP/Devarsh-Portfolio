@@ -9,20 +9,20 @@ const AboutMePage = () => {
   return (
     <>
       <PageHeader>
-        <PageHeaderHeading className=" font-extrabold tracking-tighter">The Architect</PageHeaderHeading>
+        <PageHeaderHeading className=" font-extrabold tracking-tighter">The Developer</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground text-lg uppercase tracking-tight">
           D. Patel // VIT Vellore CSE
         </PageHeaderHeading>
         <PageHeaderDescription className="text-muted-foreground leading-relaxed">
-          I am <span className="text-foreground font-bold">Devarsh Patel</span>, a 2nd Year Computer Science student at VIT Vellore. I don't just write code; I architect systems that demand performance and deliver results.
+          I am <span className="text-foreground font-bold">Devarsh Patel</span>, a 2nd-year Computer Science student at VIT Vellore. I am passionate about software engineering, focusing on turning concepts into functional, efficient applications rather than just writing lines of code.
         </PageHeaderDescription>
 
         <PageHeaderDescription className="text-muted-foreground leading-relaxed">
-          My focus is at the intersection of <span className="text-foreground">AI</span> and <span className="text-foreground">Scalable Infrastructures</span>. Whether it's building Gen-4 campus intelligence platforms or optimizing real-time network analyzers, I prioritize engineering rigor over generic solutions.
+          My focus is on modern full-stack development and building reliable software. Whether it's designing responsive frontend interfaces, integrating APIs, or setting up database architectures, I prioritize writing clean, maintainable code and solving real-world problems.
         </PageHeaderDescription>
 
         <PageHeaderDescription className="text-muted-foreground leading-relaxed">
-          I am driven by a <span className="text-foreground font-bold">"Masterpiece Protocol"</span> philosophy—every project must be a leap forward in design, technical debt reduction, and user impact. If it's not expanding the boundaries of what's possible, it's not finished.
+          I am driven by a continuous learning philosophy—approaching every project as an opportunity to improve my logic, learn new frameworks, and deliver a better user experience. I am always experimenting, building, and expanding my capabilities as a developer.
         </PageHeaderDescription>
       </PageHeader>
 

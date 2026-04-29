@@ -19,9 +19,7 @@ export async function SiteFooter() {
             </span>
             <span className="hidden sm:inline"> · </span>
             <span className="block sm:inline">
-              Coded in{" "}
-              <span className="font-medium text-foreground">Cursor</span> and
-              deployed with{" "}
+              Deployed with{" "}
               <span className="font-medium text-foreground">Vercel</span>
             </span>
           </div>

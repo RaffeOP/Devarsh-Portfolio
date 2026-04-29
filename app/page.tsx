@@ -18,12 +18,10 @@ const IntroductionPage = async () => {
           Devarsh Patel
         </PageHeaderHeading>
         <PageHeaderHeading className="mt-4 text-foreground text-lg md:text-xl">
-          Software Engineer & Full-Stack Developer.
+          Budding Software Engineer & Full-Stack Enthusiast
         </PageHeaderHeading>
         <PageHeaderDescription className="max-w-[700px] text-muted-foreground leading-relaxed">
-          Second Year Computer Science student at <span className="text-foreground font-bold">VIT Vellore</span>. 
-          Specialist in Full-Stack AI Systems, Campus-Scale Spatial Intelligence, and High-Performance Engineering. 
-          I build architectures that compound value and eliminate complexity.
+          Second-year Computer Science student at <span className="text-foreground font-bold">VIT Vellore</span>. I focus on building responsive, scalable applications and writing clean, maintainable code. Passionate about solving real-world problems through software and actively expanding my stack across both frontend and backend technologies.
         </PageHeaderDescription>
         <PageActions>
           <Button asChild size="lg" variant="outline" className="mercury-hover rounded-none border-white/20 hover:bg-white/5 px-8  font-bold uppercase tracking-widest">
