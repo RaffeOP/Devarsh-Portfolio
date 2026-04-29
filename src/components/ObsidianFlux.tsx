@@ -1,5 +1,3 @@
-'use client';
-
 import React, { useEffect, useRef, useState } from 'react';
 import p5 from 'p5';
 import { useTheme } from 'next-themes';

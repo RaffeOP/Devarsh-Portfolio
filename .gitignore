@@ -6,16 +6,19 @@ node_modules/
 # testing
 /coverage
 
-# Next.js
-/.next/
-/out/
-
 # production
+/dist
 /build
+/out
+
+# next.js (leftover)
+/.next/
 
 # misc
 .DS_Store
 *.pem
+*.log
+.eslintcache
 
 # debug
 npm-debug.log*
