@@ -14,6 +14,9 @@ export function MainNav() {
         <span className="hidden font-semibold tracking-tight lg:inline-block">
           {siteConfig.name}
         </span>
+        <span className="ml-2 hidden rounded-full bg-muted/50 px-2 py-0.5 text-[9px] font-bold uppercase tracking-widest text-muted-foreground transition-colors hover:bg-muted lg:inline-block">
+          v2.0
+        </span>
       </Link>
       <nav className="flex items-center gap-6 text-sm">
         <Link

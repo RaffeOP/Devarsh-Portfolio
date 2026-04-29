@@ -2,7 +2,7 @@ export const siteConfig = {
   name: 'devarsh.dev',
   url: 'https://devarsh.dev',
   author: 'Devarsh Patel',
-  description: 'Bachelor of Technology (B.Tech) - Computer Science @ VIT Vellore | AI & ML Architect | Second Year Builder.',
+  description: 'B.Tech in Computer Science at VIT Vellore | Architecting the future with AI & ML | Crafting immersive digital experiences.',
   location: {
     current: 'Vellore, Tamil Nadu',
     permanent: 'Ahmedabad, Gujarat'
@@ -34,7 +34,7 @@ export const siteConfig = {
     linkedin: 'https://www.linkedin.com/in/devarsh-patel-7389b0321/',
     resume: '/Devarsh_Patel_CV.pdf', 
     email: 'mailto:devarsh.patel@vit.ac.in', // Suggested
-    repo: 'https://github.com/RaffeOP/My-Portfolio',
+    repo: 'https://github.com/RaffeOP/Devarsh-Portfolio',
     githubUsername: 'RaffeOP',
   },
 };
