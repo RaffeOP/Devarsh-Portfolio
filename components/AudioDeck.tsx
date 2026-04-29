@@ -17,17 +17,17 @@ const PLAYLIST = [
   { title: "Akhiyan", artist: "Harkirat Sangha", id: "w_Q4K1S5q80" },
   { title: "Sayonaara", artist: "Harkirat Sangha", id: "46D4c_iP0O4" },
   { title: "Midnight Call", artist: "Harkirat Sangha", id: "rJ9sV7_h1yM" },
-  { title: "Shutdown", artist: "Harkirat Sangha", id: "v98_8_v98" }, // Popular hit
-  { title: "Donali", artist: "Harkirat Sangha", id: "B9_v988zV9o" },
+  { title: "Shutdown", artist: "Harkirat Sangha", id: "RsO3xQaqWIA" }, // Popular hit
+  { title: "Donali", artist: "Harkirat Sangha", id: "wU1JEn1Fwfw" },
   { title: "C4", artist: "Harkirat Sangha", id: "q9_R7HjR67k" },
-  { title: "Karnatak", artist: "Harkirat Sangha", id: "v7K-zZ3yQj0" },
+  { title: "Karnatak", artist: "Harkirat Sangha", id: "_EeJHew0TMY" },
   { title: "Surma", artist: "Harkirat Sangha", id: "cWMx6pYt9lY" },
   { title: "Sanghastyle", artist: "Harkirat Sangha", id: "pgo5CNPFM0I" },
 
   // --- JIND UNIVERSE ---
   { title: "High On You", artist: "Jind Universe", id: "k-iG6R2p_hE" },
   { title: "Love Exit", artist: "Jind Universe", id: "c1y-K2a_o0M" },
-  { title: "End Up", artist: "Jind Universe", id: "v8888zV9o" },
+  { title: "End Up", artist: "Jind Universe", id: "QcU1DsYZGf4" },
 
   // --- HINDI HITS ---
   { title: "Heeriye", artist: "Arijit Singh", id: "K2M1-5a0sT8" },
@@ -63,7 +63,7 @@ const AudioDeck: React.FC = () => {
           config={{
             youtube: {
               playerVars: { autoplay: 1, controls: 0 }
-            }
+            } as any
           }}
         />
       </div>
