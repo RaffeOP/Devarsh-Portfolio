@@ -2,7 +2,7 @@ export const siteConfig = {
   name: 'devarsh.dev',
   url: 'https://devarsh.dev',
   author: 'Devarsh Patel',
-  description: 'B.Tech in Computer Science at VIT Vellore | Architecting the future with AI & ML | Crafting immersive digital experiences.',
+  description: 'Budding Software Engineer & Full Stack Development enthusiast @ VIT Vellore | Second Year Builder.',
   location: {
     current: 'Vellore, Tamil Nadu',
     permanent: 'Ahmedabad, Gujarat'

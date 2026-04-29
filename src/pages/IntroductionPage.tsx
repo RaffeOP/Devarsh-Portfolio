@@ -18,10 +18,10 @@ const IntroductionPage = () => {
           Devarsh Patel
         </PageHeaderHeading>
         <PageHeaderHeading className="mt-4 text-foreground text-lg md:text-xl font-syne tracking-tight">
-          AI & ML Architect • Full-Stack Engineer • System Builder
+          Budding Software Engineer & Full Stack Development enthusiast
         </PageHeaderHeading>
         <PageHeaderDescription className="max-w-[700px] text-muted-foreground leading-relaxed">
-          Second-year Computer Science student at <span className="text-foreground font-bold">VIT Vellore</span>. I specialize in architecting intelligent systems and crafting high-performance, immersive digital experiences. Currently pushing the boundaries of <span className="text-foreground font-medium">Full-Stack Development</span> and <span className="text-foreground font-medium">Machine Learning</span>.
+          Second-year Computer Science student at <span className="text-foreground font-bold">VIT Vellore</span>. I focus on building responsive, scalable applications and writing clean, maintainable code. Passionate about solving real-world problems through software and actively expanding my stack across both frontend and backend technologies.
         </PageHeaderDescription>
         <PageActions>
           <Button asChild size="lg" variant="outline" className="mercury-hover rounded-none border-white/20 hover:bg-white/5 px-8  font-bold uppercase tracking-widest">
