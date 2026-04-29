@@ -4,7 +4,9 @@ import React, { useState } from 'react';
 import { Play, Pause, SkipForward, SkipBack, Music } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import dynamic from 'next/dynamic';
-const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
+import type { ComponentType } from 'react';
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const ReactPlayer = dynamic(() => import('react-player') as any, { ssr: false }) as ComponentType<any>;
 
 const PLAYLIST = [
   // --- PUNJABI - KARAN AUJLA & BADSHAH ---
@@ -63,7 +65,7 @@ const AudioDeck: React.FC = () => {
           config={{
             youtube: {
               playerVars: { autoplay: 1, controls: 0 }
-            } as any
+            }
           }}
         />
       </div>
