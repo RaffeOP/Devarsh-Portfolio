@@ -6,7 +6,7 @@ import { SiteHeader } from '@/components/site-header';
 import { SideNav } from '@/components/side-nav';
 import { SiteFooter } from '@/components/site-footer';
 import ObsidianFlux from '@/components/ObsidianFlux';
-import AudioDeck from '@/components/AudioDeck';
+
 import { docsConfig } from '@/config/docs';
 import { lazy, Suspense } from 'react';
 import Loading from '@/pages/Loading';
@@ -40,7 +40,7 @@ function App() {
           </filter>
         </svg>
         <ObsidianFlux />
-        <AudioDeck />
+
         <div vaul-drawer-wrapper="">
           <div className="relative flex flex-col min-h-svh bg-transparent z-10">
             <div
