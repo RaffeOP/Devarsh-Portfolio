@@ -252,7 +252,7 @@ export default function AudioDeck() {
                 showinfo: 0,
                 iv_load_policy: 3
               }
-            }
+            } as any
           }}
         />
       </div>
